@@ -119,12 +119,21 @@
 
           <div class="text-lg sm:text-lg mb-16">
             <form
-              name="Contact Form"
+              name="contact"
               method="POST"
+              v-on:submit.prevent="handleSubmit"
               data-netlify="true"
               action="/success"
               class="mb-12"
+              data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+                <label>
+                  Don’t fill this out:
+                  <input name="bot-field" />
+                </label>
+              </p>
               <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                   <label class="block mb-2 text-copy-primary" for="name">Name</label>
@@ -135,6 +144,7 @@
                     id="name"
                     placeholder="Spock"
                     class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-indigo-700 mb-2 p-4"
+                    v-model="formData.name"
                     required
                   />
                 </div>
@@ -148,6 +158,7 @@
                     id="email"
                     placeholder="spock@starfleet.com"
                     class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-indigo-700 mb-2 p-4"
+                    v-model="formData.email"
                     required
                   />
                 </div>
@@ -162,6 +173,7 @@
                   name="message"
                   class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-indigo-700 mb-2 px-4 py-4"
                   placeholder="Live long and prosper"
+                  v-model="formData.message"
                   required
                 ></textarea>
               </div>
@@ -280,6 +292,32 @@
 export default {
   metaInfo: {
     title: "Full-Stack Web Developer"
+  },
+  data() {
+    return {
+      formData: {}
+    };
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    },
+    handleSubmit(e) {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData
+        })
+      })
+        .then(() => this.$router.push("/success"))
+        .catch(error => alert(error));
+    }
   }
 };
 </script>
