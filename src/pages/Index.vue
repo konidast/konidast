@@ -119,7 +119,7 @@
 
           <div class="text-lg sm:text-lg mb-16">
             <form
-              name="Tom Konidas Contact Form"
+              name="Contact Form"
               method="POST"
               data-netlify="true"
               action="/success"
