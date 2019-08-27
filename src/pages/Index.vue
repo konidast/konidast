@@ -3,7 +3,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-24">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Full-Stack Web Developer</div>
-        <div class="text-indigo-700 leading-tight">Batteries Included</div>
+        <div class="text-indigo-700 leading-tight">|> Batteries Included</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="../../static/programming.svg" width="280" alt="hero" class="mx-auto sm:mx-0" />
