@@ -23,7 +23,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Full-Stack Web Developper from Montreal, QC, Canada'
+    content: 'Full-Stack Web Developer | Batteries Included'
   })
 
   head.meta.push({
