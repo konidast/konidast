@@ -15,7 +15,8 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Tom Konidas',
-  siteDescription: 'Full-Stack Web Developer | Batteries Included',
+  titleTemplate: 'Tom Konidas |> %s',
+  siteDescription: 'Creative Full-Stack Web Developer, Batteries Included.',
   siteUrl: 'https://tomkonidas.com',
   plugins: [
     {

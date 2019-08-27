@@ -279,7 +279,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Home"
+    title: "Full-Stack Web Developer"
   }
 };
 </script>
