@@ -143,7 +143,13 @@
           >I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</p>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form name="Tom Konidas Contact Form" method="POST" netlify class="mb-12">
+            <form
+              name="Tom Konidas Contact Form"
+              method="POST"
+              data-netlify="true"
+              action="/success"
+              class="mb-12"
+            >
               <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                   <label class="block mb-2 text-copy-primary" for="name">Name</label>
