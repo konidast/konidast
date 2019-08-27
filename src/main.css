@@ -79,7 +79,7 @@ nav .active {
 }
 
 .checkmark {
-  background-image: url("http://img.icons8.com/nolan/48/000000/unchecked-circle.png");
+  background-image: url("../static/circle.png");
   background-repeat: no-repeat;
   @apply pl-12;
 }
