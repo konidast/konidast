@@ -61,7 +61,7 @@
           <!-- <div>
             <a href="rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |
             <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
-          </div> -->
+          </div>-->
         </div>
         <ul class="flex items-center">
           <li class="mr-8">
@@ -80,6 +80,7 @@
               href="https://github.com/tomkonidas"
               target="_blank"
               class="text-white hover:text-gray-400"
+              rel="noopener"
             >
               <svg width="20" height="19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -94,6 +95,7 @@
               href="https://www.linkedin.com/in/tomkonidas/"
               target="_blank"
               class="text-white hover:text-gray-400"
+              rel="noopener"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,6 +116,7 @@
               href="https://twitter.com/tomkonidas"
               target="_blank"
               class="text-white hover:text-gray-400"
+              rel="noopener"
             >
               <svg width="20" height="17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path
