@@ -3,7 +3,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-24">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Full-Stack Web Developer</div>
-        <div class="text-indigo-700 leading-tight">
+        <div class="text-indigo-700 text-2xl leading-tight">
           <span class="hidden sm:inline-flex">|></span> Batteries Included
         </div>
       </div>
@@ -19,7 +19,7 @@
         <a
           href="https://vimeo.com/289942593"
         >creative skills</a>
-        , I am well equiped to help bring your idea to life. From buying and registering your domain name to designing, developing and deploying your website live on the wolrd wide web.
+        , I am well equiped to help bring your idea to life. From buying and registering your domain name, to designing, developing and deploying your website live on the world wide web.
       </p>
 
       <div class="flex justify-between items-center py-10">
@@ -47,7 +47,7 @@
             <div class="pl-2">UI/UX Design</div>
             <div class="text-lg text-gray-600 pl-2">
               Each of my designs begin with a blank canvas which allows your content to guide the layout.
-              Lean, clean, and easy to navigate.
+              Simple, clean, and easy to navigate.
             </div>
           </li>
           <li class="checkmark mb-6">
@@ -60,7 +60,7 @@
             <div class="pl-2">SEO</div>
             <div
               class="text-lg text-gray-600 pl-2"
-            >Place above your competition in search engine results using Google's very own best practicies guidelines.</div>
+            >Rank above your competition in search engine results using Google's very own best practices.</div>
           </li>
           <li class="checkmark mb-6">
             <div class="pl-2">Hosting</div>
@@ -92,7 +92,7 @@
           </div>
           <div
             class="flex-1 text-lg sm:text-xl ml-6"
-          >Hello, my name is Tom Konidas and I'm a minimalist who truly believes that less is more. I love knowledge, and I strongly believe technology can, and should enrich every single life this universe has to offer.</div>
+          >Hello, my name is Tom Konidas and I'm a minimalist who truly believes that less is more. I love knowledge and I strongly believe technology can, and should, enrich every single life our universe has to offer.</div>
         </div>
 
         <div class="hero container-inner mx-auto flex justify-between py-4">
