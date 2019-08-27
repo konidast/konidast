@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Tom Konidas',
-  siteDescription: 'A place where I can showcase my work and let my knowledge flow.',
+  siteDescription: 'Full-Stack Web Developper from Montreal, QC, Canada',
   siteUrl: 'https://tomkonidas.com',
   plugins: [
     {
@@ -42,7 +42,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Tom Konidas Feed',
+          title: 'Tom Konidas',
           feed_url: 'https://tomkonidas.com/rss.xml',
           site_url: 'https://tomkonidas.com/'
         },
