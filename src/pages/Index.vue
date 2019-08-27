@@ -16,7 +16,7 @@
         Have you ever had a business idea and got slumped when it came to the technical side? This is where I step in. Coming from a technical background along with many
         <a
           href="https://vimeo.com/289942593"
-        >creative hobbies</a>
+        >creative skills</a>
         , I am well equiped to help bring your idea to life. From buying and registering your domain name to designing, developing and deploying your website live on the wolrd wide web.
       </p>
 
@@ -46,50 +46,25 @@
             <div class="text-lg text-gray-600 pl-2">
               Each of my designs begin with a blank canvas which allows your content to guide the layout.
               Lean, clean, and easy to navigate.
-              <ul>
-                <li>- Custom color schemes tailored to your businesses brand</li>
-                <li>- Clean minimalistic user insterface</li>
-                <li>- Easy to navigate layouts</li>
-                <li>- Persistent themeing accross the whole website</li>
-              </ul>
             </div>
           </li>
           <li class="checkmark mb-6">
             <div class="pl-2">Web Development</div>
-            <div class="text-lg text-gray-600 pl-2">
-              Custom development using the latest cutting-edge technologies:
-              <ul>
-                <li>- Maps integration</li>
-                <li>- Email forms</li>
-                <li>- Newsletter signups</li>
-                <li>- Blog posts</li>
-                <li>...you name it, i'll build it!</li>
-              </ul>
-            </div>
+            <div
+              class="text-lg text-gray-600 pl-2"
+            >Blazing fast speeds with minimum code size bundles using the latest cutting-edge technologies.</div>
           </li>
           <li class="checkmark mb-6">
             <div class="pl-2">SEO</div>
-            <div class="text-lg text-gray-600 pl-2">
-              Get indexed high in search engines using Google's very own best practicies guidelines:
-              <ul>
-                <li>- Fully Responsive (Mobile/Tablet/Desktop)</li>
-                <li>- Blazing Fast Load times</li>
-                <li>- Cross-browser compatability</li>
-                <li>- Accessibility compliant</li>
-              </ul>
-            </div>
+            <div
+              class="text-lg text-gray-600 pl-2"
+            >Place above your competition in search engine results using Google's very own best practicies guidelines.</div>
           </li>
           <li class="checkmark mb-6">
             <div class="pl-2">Hosting</div>
-            <div class="text-lg text-gray-600 pl-2">
-              Reliable, fast, cost-efficient hosting that suites your needs:
-              <ul>
-                <li>- HTTPS/SSL Security Certificates to put your customers at ease</li>
-                <li>- Custom emails with your domain name make you look like a pro</li>
-                <li>- Hosting within Canadian lands</li>
-                <li>- VPS hosting on SSDs</li>
-              </ul>
-            </div>
+            <div
+              class="text-lg text-gray-600 pl-2"
+            >Reliable, secure and cost-efficient hosting that best suites your business needs.</div>
           </li>
         </ul>
       </div>
