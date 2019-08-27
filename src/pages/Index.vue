@@ -34,7 +34,9 @@
 
     <div id="services" class="overflow-x-hidden bg-background-secondary">
       <div class="projects container-inner mx-auto text-xl py-16 mb-16 relative">
-        <h2 class="font-bold mb-6">Here are some of the many services I offer:</h2>
+        <h2
+          class="font-bold mb-6 text-indigo-700 md:text-2xl text-xl"
+        >Here are some of the many services I offer:</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px">
@@ -107,7 +109,7 @@
     <div id="contact" class="overflow-x-hidden">
       <div class="contact-me bg-background-secondary pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
-          <h2 class="font-bold mb-6">Let's make something happen.</h2>
+          <h2 class="font-bold mb-6 text-2xl text-indigo-700">Let's make something happen.</h2>
 
           <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
             <svg width="170px" height="170px">
