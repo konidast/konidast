@@ -20,60 +20,12 @@ module.exports = {
   siteUrl: 'https://tomkonidas.com',
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'blog/**/*.md',
-        typeName: 'Post',
-        refs: {
-          tags: {
-            typeName: 'Tag',
-            route: 'tag/:id',
-            create: true
-          }
-        },
-        remark: {
-          plugins: [
-            ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
-          ]
-        }
-      }
-    },
-    {
-      use: 'gridsome-plugin-rss',
-      options: {
-        contentTypeName: 'Post',
-        feedOptions: {
-          title: 'Tom Konidas',
-          feed_url: 'https://tomkonidas.com/rss.xml',
-          site_url: 'https://tomkonidas.com/'
-        },
-        feedItemOptions: node => ({
-          title: node.title,
-          description: node.summary,
-          url: 'https://tomkonidas.com' + node.path,
-          author: 'Tom Konidas',
-          date: node.date
-        }),
-        output: {
-          dir: './static',
-          name: 'rss.xml'
-        }
-      }
-    },
-    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
       }
     },
   ],
-  transformers: {
-    remark: {
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-    }
-  },
   css: {
     loaderOptions: {
       postcss: {

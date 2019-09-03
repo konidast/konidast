@@ -44,9 +44,6 @@
             >Contact</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
-          <!-- <li class="mr-6 mb-6 lg:mb-0 lg:mt-2 sm:mt-4 ml-2">
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
-          </li>-->
         </ul>
       </nav>
     </header>
@@ -58,14 +55,10 @@
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright {{new Date().getFullYear()}}. All rights reserved.</div>
-          <!-- <div>
-            <a href="rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |
-            <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
-          </div>-->
         </div>
         <ul class="flex items-center">
           <li class="mr-8">
-            <a href="mailto:contact@tomkonidas.com" class="text-white hover:text-gray-400">
+            <a href="mailto:tomkonidas@pm.me" class="text-white hover:text-gray-400">
               <svg width="25" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M2.5 0h20A2.5 2.5 0 0 1 25 2.5v15a2.5 2.5 0 0 1-2.5 2.5h-20A2.5 2.5 0 0 1 0 17.5v-15C0 1.125 1.125 0 2.5 0zm20 4.225V2.5h-20v1.725l10 5 10-5zm0 2.8l-9.438 4.713a1.25 1.25 0 0 1-1.124 0L2.5 7.025V17.5h20V7.025z"
