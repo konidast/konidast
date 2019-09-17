@@ -2,7 +2,7 @@
   <Layout>
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-24">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Full-Stack Web Developer</div>
+        <div class="leading-tight">Full-Stack Developer</div>
         <div class="text-indigo-700 text-2xl leading-tight">
           <span class="hidden sm:inline-flex">|></span> Batteries Included
         </div>

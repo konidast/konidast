@@ -20,7 +20,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Full-Stack Web Developer, Batteries Included.'
+    content: 'Full-Stack Developer, Batteries Included.'
   })
 
   head.meta.push({
