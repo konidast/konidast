@@ -19,7 +19,7 @@
         <a
           href="https://vimeo.com/289942593"
         >creative skills</a>
-        , I am well equiped to help bring your idea to life. From buying and registering your domain name, to designing, developing and deploying your website live on the world wide web.
+        , I am well equipped to help bring your idea to life. From buying and registering your domain name, to designing, developing and deploying your website live on the world wide web.
       </p>
 
       <div class="flex justify-between items-center py-10">
