@@ -15,12 +15,12 @@
 
     <div class="container-inner mx-auto pt-2 pb-12">
       <p class="pb-6 text-lg sm:text-xl">
-        Life is about solving porblems. We all have our own unique ways for getting things done. I use software to tackle these issues.
-        Coming from a technical background along with many
+        Life is about solving problems. We all have our unique ways for getting things done. I use software to tackle these issues.
+        Coming from a technical background and with many
         <a
           href="https://vimeo.com/289942593"
         >creative skills</a>
-        , I am well-equipped to help bring your idea to life. From buying and registering your domain name, to designing, developing and deploying your website live on the world wide web.
+        , I am well equipped to help bring your idea to life. From buying and registering your domain name, to designing, developing and deploying your website live on the world wide web, I am here to help you every step of the way.
       </p>
 
       <div class="flex justify-between items-center py-10">
