@@ -296,7 +296,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Full-Stack Web Developer"
+    title: "Full-Stack Developer"
   },
   data() {
     return {
