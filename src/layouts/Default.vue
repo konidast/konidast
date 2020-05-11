@@ -13,7 +13,9 @@
             <g-image src="../../static/logo_dark_mode.svg" class="w-64" alt="logo" />
           </g-link>
         </div>
-        <ul class="uppercase tracking-wide font-bold flex items-center mt-4 md:mt-0">
+        <ul
+          class="uppercase tracking-wide font-bold flex flex-wrap items-center justify-center mt-4 md:mt-0"
+        >
           <li class="mr-6 mb-6 lg:mb-0 lg:mt-2 sm:mt-4 ml-2">
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
