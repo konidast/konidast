@@ -36,6 +36,9 @@
             <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
           </li>
           <li class="mr-6 mb-6 lg:mb-0 lg:mt-2 sm:mt-4 ml-2">
+            <a href="https://konidas.net" class="text-copy-primary hover:text-gray-600">Blog</a>
+          </li>
+          <li class="mr-6 mb-6 lg:mb-0 lg:mt-2 sm:mt-4 ml-2">
             <a
               v-if="$route.path === '/'"
               href="/#contact"
