@@ -20,12 +20,18 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Full-Stack Developer, Batteries Included.'
+    content: 'Tom Konidas |> Full-Stack Developer, Batteries Included.'
   })
 
   head.meta.push({
     name: 'author',
     content: 'Tom Konidas'
+  })
+
+  head.meta.push({
+    property: 'og:image',
+    name: 'image',
+    content: `https://tomkonidas.com/assets/static/avatar.jpg`,
   })
 
   head.link.push({
