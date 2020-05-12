@@ -301,7 +301,7 @@ export default {
       {
         name: "image",
         property: "og:image",
-        content: "/assets/static/avatar.jpg"
+        content: "assets/static/avatar.jpg"
       }
     ]
   },
