@@ -31,7 +31,7 @@ export default function (Vue, { router, head, isClient }) {
   head.meta.push({
     name: 'image',
     property: 'og:image',
-    content: '/assets/static/src/tom.jpg'
+    content: './src/tom.jpg'
   })
 
   head.link.push({
