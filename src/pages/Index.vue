@@ -296,14 +296,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Full-Stack Developer",
-    meta: [
-      {
-        name: "image",
-        property: "og:image",
-        content: "assets/static/avatar.jpg"
-      }
-    ]
+    title: "Full-Stack Developer"
   },
   data() {
     return {
