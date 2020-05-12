@@ -28,12 +28,6 @@ export default function (Vue, { router, head, isClient }) {
     content: 'Tom Konidas'
   })
 
-  head.meta.push({
-    property: 'og:image',
-    name: 'image',
-    content: `https://tomkonidas.com/assets/static/avatar.jpg`,
-  })
-
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap'
