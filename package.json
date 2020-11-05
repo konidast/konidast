@@ -9,7 +9,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "@gridsome/plugin-sitemap": "^0.2.1",
-    "gridsome": "^0.7.21",
+    "gridsome": "^0.7.22",
     "lodash.pick": "^4.4.0",
     "vue-scrollto": "^2.20.0"
   },
