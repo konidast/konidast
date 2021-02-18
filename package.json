@@ -7,9 +7,8 @@
     "npm": "7.5.x"
   },
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve & postcss src/css/style.css --o _tmp/style.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss src/css/style.css --o _site/style.css && cleancss _site/style.css -o _site/style.css"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,13 @@
   },
   "homepage": "https://tomkonidas.com",
   "devDependencies": {
-    "@11ty/eleventy": "0.11.1"
+    "@11ty/eleventy": "0.11.1",
+    "alpinejs": "2.8.0",
+    "autoprefixer": "10.2.4",
+    "clean-css-cli": "5.2.0",
+    "html-minifier": "4.0.0",
+    "node-fetch": "2.6.1",
+    "postcss-cli": "8.3.1",
+    "tailwindcss": "2.0.3"
   }
 }

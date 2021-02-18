@@ -1,0 +1,14 @@
+{
+  "title": "Tom Konidas",
+  "url": "https://tomkonidas.com",
+  "social_image": "https://tomkonidas.com/images/social.jpg",
+  "lang": "en",
+  "locale": "en_us",
+  "description": "Freelance Software Developer based in Montreal",
+  "author": {
+    "name": "Tom Konidas",
+    "email": "tomkonidas@pm.me",
+    "handle": "@tomkonidas",
+    "url": "https://tomkonidas.com/about/"
+  }
+}
